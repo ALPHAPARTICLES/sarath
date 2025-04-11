@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarath Pandian S | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #1abc9c;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    .project, ul {
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    .toggle-theme {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #1abc9c;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    body.dark-mode {
+      background-color: #121212;
+      color: #ddd;
+    }
+    body.dark-mode header,
+    body.dark-mode footer,
+    body.dark-mode nav {
+      background-color: #1e1e1e;
+    }
+    body.dark-mode section {
+      background-color: #1c1c1c;
+      color: #ccc;
+    }
+    body.dark-mode nav a {
+      color: #ccc;
+    }
+    body.dark-mode nav a:hover {
+      color: #1abc9c;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-theme">Toggle Theme</button>
+
+  <header>
+    <h1>Sarath Pandian S</h1>
+    <p>Aspiring Electronics & Communication Engineer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am an aspiring Electronics and Communication Engineer with strong problem-solving skills and a passion for innovation. I aim to tackle real-world challenges through technical expertise.</p>
+
+    <h2>Education</h2>
+    <p><strong>B.E. in Electronics & Communication Engineering</strong><br/>Mount Zion College of Engineering & Technology, Anna University<br/>Aug 2022 - May 2026</p>
+    <p><strong>Higher Secondary in Computer Science</strong><br/>NSMVPS Hr. Sec. School<br/>Jun 2020 - May 2022</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>DC Motor Control Using L293D H-Bridge</h3>
+      <p>Controlled a DC motor using L293D H-bridge and Arduino for bidirectional rotation.<br/>
+      <a href="https://www.tinkercad.com/things/hKmYSRCtifN-sarath-control-dc-motor-by-using-h-bridge-motor-driver-l293d-in" target="_blank">View Project</a></p>
+    </div>
+    <div class="project">
+      <h3>Light-Controlled Fan</h3>
+      <p>Created a smart fan system that responds to light levels using a photoresistor and Arduino.<br/>
+      <a href="https://www.tinkercad.com/things/241sY3ehDwZ-light-controlled-fan" target="_blank">View Project</a></p>
+    </div>
+    <div class="project">
+      <h3>Glorious Borwo</h3>
+      <p>[Project description pending—please update this section.]<br/>
+      <a href="https://www.tinkercad.com/things/kFR1pFtY4vL-glorious-borwo" target="_blank">View Project</a></p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Internships</h2>
+    <h3>Certifications</h3>
+    <ul>
+      <li>Python for Everybody – University of Michigan (Coursera, Jan 2024)</li>
+      <li>Embedded Systems Design – NPTEL, Mar 2024</li>
+    </ul>
+    <h3>Internships</h3>
+    <p><strong>Intern at SMNG Academy</strong><br/>
+    PCB Design & Embedded Systems | Jan 2024 – Feb 2024<br/>
+    Worked on Python-based projects and hands-on hardware simulations.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Python, Embedded C, HTML, IoT</li>
+      <li>PCB Design, VLSI, Microsoft Suite</li>
+      <li>Jupyter Notebook, Gmail</li>
+    </ul>
+
+    <h2>Languages</h2>
+    <ul class="languages">
+      <li>English – Advanced</li>
+      <li>German – Beginner</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p class="contact">
+      📞 8870907612<br/>
+      📧 <a href="mailto:sarathpandian9027@mountzion.ac.in">sarathpandian9027@mountzion.ac.in</a><br/>
+      📍 41, Lakshmipuram West Street, Devakottai, Sivaganga, Tamil Nadu
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sarath Pandian S | Portfolio
+  </footer>
+
+  <script>
+    // Toggle Dark Mode
+    document.querySelector('.toggle-theme').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
